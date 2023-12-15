@@ -5,6 +5,317 @@
   list-style: none;
   text-decoration: none;
 }
-.box2{
+
+.box {
   display: flex;
+  gap: 30px;
+  margin-left: 50%;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+}
+
+.dav {
+  display: flex;
+  gap: 170px;
+}
+
+.box2 {
+  width: 80px;
+  height: 30px;
+  background-color: blue;
+  margin-left: 10%;
+  text-align: center;
+  align-items: center;
+  padding: 5px 0;
+  border-radius: 20px;
+  color: white;
+}
+
+.nav .container {
+  padding: 10px 10px;
+  background-color: #FBEDDA;
+}
+
+.nav {
+  background-color: #FBEDDA;
+}
+.hur{
+  margin-top: 20px;
+}
+.xu .container{
+  display: block;
+  margin-top: -1.3%;
+}
+.jiji{
+  font-size: 30px;
+  color: green;
+}
+.suxa {
+  width: 80%;
+  height: 20vh;
+  background-color: white;
+  border-radius: 25px 25px 0 0 ;
+  padding: 40px 50px;
+}
+.til{
+  width: 80%;
+  height: 20vh;
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+}
+.xat2{
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.say {
+  display: flex;
+  gap: 50px;
+  margin-left: 10px;
+}
+
+.say2 {
+  color: var(--black-shade-2, #CCCFD0);
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.say3 {
+  color: var(--black-shade-2, #CCCFD0);
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.say1 {
+  color: var(--Black, #021112);
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+
+.bunyod .container {
+  justify-content: center;
+}
+
+.bunyod {
+  margin-top: 15%;
+}
+
+.said {
+  color: var(--Black, #021112);
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 105px;
+  margin-top: 15%;
+}
+
+.feruz .container {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+}
+
+.bun {
+  margin-top: 10%;
+}
+
+.login {
+  width: 100%;
+  height: 100vh;
+  background-color: green;
+
+}
+
+.tugma {
+  width: 100px;
+  height: 20px;
+  background-color: #fff;
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.ism {
+  width: 100%;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.registr {
+  width: 300px;
+  border-radius: 20px 20px 0 0;
+  margin-top: 10%;
+}
+
+.fam {
+  width: 100%;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+.hoji .container {
+  padding: 30px 0px;
+}
+
+.raqam {
+  width: 100%;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+.email {
+  width: 100%;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+.login .container {
+  text-align: center;
+  justify-content: center;
+}
+
+.h23 {
+  margin-top: 40px;
+
+}
+
+/* .hojiakbar {
+  width: 100%;
+  height: 400vh;
+} */
+
+.div {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+
+.islom {
+  width: 100%;
+  height: 150vh;
+}
+
+.hojiakbar {
+  background-color: #FBEDDA;
+}
+
+.feruz {
+  width: 100%;
+  height: 50vh;
+}
+
+.b .container {
+  justify-content: center;
+  color: var(--black-shade, #677071);
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.n {
+  color: var(--Black, #021112);
+  font-family: Noto Serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  margin-bottom: 30px;
+}
+.asa{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.xat{
+  font-size: 25px;
+}
+.n1 {
+  color: var(--Black, #021112);
+  font-family: Noto Serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  margin-bottom: 20px;
+
+}
+.hello{
+  width: 250px;
+  height: 100px;
+  background-color: white;
+}
+.fss{
+  width: 100px;
+  height: 20px;
+}
+
+.n2 {
+  color: var(--Black, #021112);
+  font-family: Noto Serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  margin-bottom: 20px;
+}
+
+.n3 {
+  color: var(--Black, #021112);
+  font-family: Noto Serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  margin-bottom: 20px;
+}
+
+.n4 {
+  color: var(--Black, #021112);
+  font-family: Noto Serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  margin-bottom: 20px;
 }
